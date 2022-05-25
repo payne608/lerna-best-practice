@@ -1,6 +1,6 @@
 {
   "name": "@mo-demo/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "author": "Chen Pan <chenpan455@hellobike.com>",
   "homepage": "https://github.com/payne608/lerna-best-practice#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/payne608/lerna-best-practice/issues"
   },
   "dependencies": {
-    "@mo-demo/cli-shared-utils": "^0.0.1",
+    "@mo-demo/cli-shared-utils": "^0.0.2",
     "chalk": "^5.0.1"
   },
   "gitHead": "37c14137c528ee5ae291b784f270e34144afea14"

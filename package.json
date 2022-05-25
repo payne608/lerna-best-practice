@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3",
+    "husky": "^8.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^12.4.2",
+    "standard": "^17.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

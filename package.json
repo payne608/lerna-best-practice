@@ -1,6 +1,6 @@
 {
   "name": "root",
-  "version": "0.0.2",
+  "version": "independent",
   "private": true,
   "devDependencies": {
     "commitizen": "^4.2.4",

@@ -1,0 +1,19 @@
+{
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    },
+    "publish": {
+      "registry": "http://npm.registry.webchen.cc/"
+    }
+  }
+}

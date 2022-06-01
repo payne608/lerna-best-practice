@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "http://npm.registry.webchen.cc/"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,6 @@
   "dependencies": {
     "@mo-demo/cli-shared-utils": "^0.1.0-alpha.4",
     "chalk": "^5.0.1"
-  }
+  },
+  "gitHead": "41b8da97d42f7e3831106fda8f174901d6bf5cff"
 }
